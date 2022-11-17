@@ -1,7 +1,8 @@
 <template>
     <div>
-        <button @click="$emit(nextSentence('hola'))">next</button>
-        <button @click="$emit(previousSentence('hola'))">prev</button>
+        <button @click="$emit(currentSentence('hola'))">prev</button> <!-- provando -->
+        <button @click="$emit(currentSentence)">next</button>
+       
 
     </div>
 </template>
@@ -11,7 +12,7 @@
 
 export default {
   name: "Boton",
-  props: ["next", "prev"]
+  props: ["currentSentence"]
   }
 
 </script>
