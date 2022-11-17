@@ -33,8 +33,8 @@ import Boton from './Boton.vue'
     },
 
     methods: {
-     currentSentence: function (mensaje) {
-      alert(mensaje)
+     currentSentence: {
+     
     }
   }
 
@@ -42,14 +42,6 @@ import Boton from './Boton.vue'
   
   }
 
-   
-
-  
-  
-
- 
- 
- 
 
 </script>
     
