@@ -6,7 +6,7 @@
 <style>
 button{
     margin: 5px; 
-    min-width: 290px;
+    width: 48%;
     height: 40px;
     background-color: rgb(236, 231, 231);
     border: 1px solid;
@@ -16,5 +16,9 @@ button{
         background-color: rgb(250, 209, 209);
         border:1px solid rgb(110, 106, 106);
 }
-
+@media only screen and (max-width: 564px) {
+    button{
+    width: 100%;   
+    }
+}
 </style>
